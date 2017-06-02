@@ -9,10 +9,15 @@ public class HelloWorld {
             switch (i){
                 case 1:
                     System.out.println("K");
+                    break;
                 case 2:
                     System.out.println("U");
+                    break;
                 case 3:
                     System.out.println("Y");
+                    break;
+                default:
+                    System.out.printf("Error");
             }
         }
 
